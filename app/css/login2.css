@@ -1,0 +1,49 @@
+/*login.css*/
+
+#mainContainer {
+  text-align:center;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:#2C3E50;
+  color:#BDC3C7;
+}
+
+#mainContainer #logo {
+  margin-top:1em;
+  font-size:4em;
+  font-weight:bold;
+  margin-bottom:0.4em;
+}
+
+#mainContainer #loginFields {
+  font-size:1em;
+  margin-bottom:0.3em;
+}
+  #mainContainer #loginFields input {
+    font-size:1.2em;
+    height:2.5em;
+    width:80%;
+  }
+  #mainContainer #loginFields input:focus {
+    border-color:#95A5A6;
+  }
+
+#mainContainer #loginButtons {
+  width:100%;
+  margin-bottom:2.1em;
+}
+  #mainContainer #loginButtons #loginButton {
+    width:72%;
+  }
+
+#mainContainer #registerBox {
+  font-size:1.1em;
+}
+  #mainContainer #registerBox a {
+    text-decoration:none;
+    color:#2ECC71;
+  }
+  #mainContainer #registerBox a:hover {
+    cursor:pointer;
+  }
